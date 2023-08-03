@@ -25,6 +25,8 @@ String arr[]: ".etaerg si gnidoC"
         for (int i =metinArr.length-1 ; i >=0 ; i--) {
             tersMetinArr[i]=metinArr[metinArr.length-1-i];
         }
-        System.out.println(Arrays.toString(tersMetinArr));
+        for (int i = 0; i < tersMetinArr.length; i++) {
+            System.out.print(tersMetinArr[i]);
+        }
     }
 }
